@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.buttons{
+    @apply text-sm md:text-base border-2 border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white py-1 px-3 font-semibold rounded-lg transition ease-linear duration-300;
+}
